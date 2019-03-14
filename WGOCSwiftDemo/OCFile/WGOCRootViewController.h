@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WGOCRootViewController.h
 //  WGOCSwiftDemo
 //
 //  Created by wanggang on 2019/3/14.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface WGOCRootViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

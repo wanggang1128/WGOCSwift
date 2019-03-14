@@ -1,0 +1,15 @@
+//
+//  WGOCSwiftDemo.pch
+//  WGOCSwiftDemo
+//
+//  Created by wanggang on 2019/3/14.
+//  Copyright © 2019 bozhong. All rights reserved.
+//
+
+#ifndef WGOCSwiftDemo_pch
+#define WGOCSwiftDemo_pch
+
+#import "WGGloabDefine.h"
+#import "WGOCSwiftDemo-Swift.h"
+
+#endif /* WGOCSwiftDemo_pch */

@@ -8,13 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		32C45522223A3C46002DEB3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C45521223A3C46002DEB3D /* AppDelegate.m */; };
-		32C45525223A3C46002DEB3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C45524223A3C46002DEB3D /* ViewController.m */; };
-		32C45528223A3C46002DEB3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32C45526223A3C46002DEB3D /* Main.storyboard */; };
 		32C4552A223A3C48002DEB3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32C45529223A3C48002DEB3D /* Assets.xcassets */; };
 		32C4552D223A3C48002DEB3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32C4552B223A3C48002DEB3D /* LaunchScreen.storyboard */; };
 		32C45530223A3C48002DEB3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C4552F223A3C48002DEB3D /* main.m */; };
 		32C4553A223A3C48002DEB3D /* WGOCSwiftDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C45539223A3C48002DEB3D /* WGOCSwiftDemoTests.m */; };
 		32C45545223A3C48002DEB3D /* WGOCSwiftDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C45544223A3C48002DEB3D /* WGOCSwiftDemoUITests.m */; };
+		32C45554223A3D75002DEB3D /* WGTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C45553223A3D75002DEB3D /* WGTabBarViewController.m */; };
+		32C4555C223A3E94002DEB3D /* WGSwiftRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C4555B223A3E94002DEB3D /* WGSwiftRootViewController.swift */; };
+		32C4555F223A3EB1002DEB3D /* WGOCRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C4555E223A3EB1002DEB3D /* WGOCRootViewController.m */; };
+		32C45569223A4228002DEB3D /* tests@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32C45564223A4228002DEB3D /* tests@2x.png */; };
+		32C4556A223A4228002DEB3D /* test@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32C45565223A4228002DEB3D /* test@3x.png */; };
+		32C4556C223A4228002DEB3D /* test@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32C45567223A4228002DEB3D /* test@2x.png */; };
+		32C4556D223A4228002DEB3D /* tests@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32C45568223A4228002DEB3D /* tests@3x.png */; };
+		32C45572223A4CF9002DEB3D /* WGOCFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C45571223A4CF9002DEB3D /* WGOCFirstViewController.m */; };
+		32C45574223A4D0E002DEB3D /* WGSwiftFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C45573223A4D0E002DEB3D /* WGSwiftFirstViewController.swift */; };
+		32C45577223A54AF002DEB3D /* WGOCMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C45576223A54AF002DEB3D /* WGOCMethod.m */; };
+		32C45579223A54C4002DEB3D /* WGSwiftMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C45578223A54C4002DEB3D /* WGSwiftMethod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +47,6 @@
 		32C4551D223A3C46002DEB3D /* WGOCSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WGOCSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32C45520223A3C46002DEB3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		32C45521223A3C46002DEB3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		32C45523223A3C46002DEB3D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		32C45524223A3C46002DEB3D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		32C45527223A3C46002DEB3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32C45529223A3C48002DEB3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32C4552C223A3C48002DEB3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32C4552E223A3C48002DEB3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +57,24 @@
 		32C45540223A3C48002DEB3D /* WGOCSwiftDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WGOCSwiftDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32C45544223A3C48002DEB3D /* WGOCSwiftDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGOCSwiftDemoUITests.m; sourceTree = "<group>"; };
 		32C45546223A3C48002DEB3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32C45552223A3D75002DEB3D /* WGTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTabBarViewController.h; sourceTree = "<group>"; };
+		32C45553223A3D75002DEB3D /* WGTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTabBarViewController.m; sourceTree = "<group>"; };
+		32C4555B223A3E94002DEB3D /* WGSwiftRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGSwiftRootViewController.swift; sourceTree = "<group>"; };
+		32C4555D223A3EB1002DEB3D /* WGOCRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGOCRootViewController.h; sourceTree = "<group>"; };
+		32C4555E223A3EB1002DEB3D /* WGOCRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGOCRootViewController.m; sourceTree = "<group>"; };
+		32C45560223A3FBC002DEB3D /* WGOCSwiftDemoBridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGOCSwiftDemoBridging.h; sourceTree = "<group>"; };
+		32C45564223A4228002DEB3D /* tests@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tests@2x.png"; sourceTree = "<group>"; };
+		32C45565223A4228002DEB3D /* test@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test@3x.png"; sourceTree = "<group>"; };
+		32C45567223A4228002DEB3D /* test@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test@2x.png"; sourceTree = "<group>"; };
+		32C45568223A4228002DEB3D /* tests@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tests@3x.png"; sourceTree = "<group>"; };
+		32C4556E223A43CD002DEB3D /* WGOCSwiftDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGOCSwiftDemo.pch; sourceTree = "<group>"; };
+		32C4556F223A4556002DEB3D /* WGGloabDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGGloabDefine.h; sourceTree = "<group>"; };
+		32C45570223A4CF9002DEB3D /* WGOCFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGOCFirstViewController.h; sourceTree = "<group>"; };
+		32C45571223A4CF9002DEB3D /* WGOCFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGOCFirstViewController.m; sourceTree = "<group>"; };
+		32C45573223A4D0E002DEB3D /* WGSwiftFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGSwiftFirstViewController.swift; sourceTree = "<group>"; };
+		32C45575223A54AF002DEB3D /* WGOCMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGOCMethod.h; sourceTree = "<group>"; };
+		32C45576223A54AF002DEB3D /* WGOCMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGOCMethod.m; sourceTree = "<group>"; };
+		32C45578223A54C4002DEB3D /* WGSwiftMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGSwiftMethod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +125,16 @@
 		32C4551F223A3C46002DEB3D /* WGOCSwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				32C45563223A4215002DEB3D /* Resources */,
+				32C45556223A3DEB002DEB3D /* SwiftFile */,
+				32C45555223A3DE0002DEB3D /* OCFile */,
+				32C45552223A3D75002DEB3D /* WGTabBarViewController.h */,
+				32C45553223A3D75002DEB3D /* WGTabBarViewController.m */,
 				32C45520223A3C46002DEB3D /* AppDelegate.h */,
 				32C45521223A3C46002DEB3D /* AppDelegate.m */,
-				32C45523223A3C46002DEB3D /* ViewController.h */,
-				32C45524223A3C46002DEB3D /* ViewController.m */,
-				32C45526223A3C46002DEB3D /* Main.storyboard */,
+				32C4556E223A43CD002DEB3D /* WGOCSwiftDemo.pch */,
+				32C4556F223A4556002DEB3D /* WGGloabDefine.h */,
+				32C45560223A3FBC002DEB3D /* WGOCSwiftDemoBridging.h */,
 				32C45529223A3C48002DEB3D /* Assets.xcassets */,
 				32C4552B223A3C48002DEB3D /* LaunchScreen.storyboard */,
 				32C4552E223A3C48002DEB3D /* Info.plist */,
@@ -130,6 +159,40 @@
 				32C45546223A3C48002DEB3D /* Info.plist */,
 			);
 			path = WGOCSwiftDemoUITests;
+			sourceTree = "<group>";
+		};
+		32C45555223A3DE0002DEB3D /* OCFile */ = {
+			isa = PBXGroup;
+			children = (
+				32C4555D223A3EB1002DEB3D /* WGOCRootViewController.h */,
+				32C4555E223A3EB1002DEB3D /* WGOCRootViewController.m */,
+				32C45570223A4CF9002DEB3D /* WGOCFirstViewController.h */,
+				32C45571223A4CF9002DEB3D /* WGOCFirstViewController.m */,
+				32C45575223A54AF002DEB3D /* WGOCMethod.h */,
+				32C45576223A54AF002DEB3D /* WGOCMethod.m */,
+			);
+			path = OCFile;
+			sourceTree = "<group>";
+		};
+		32C45556223A3DEB002DEB3D /* SwiftFile */ = {
+			isa = PBXGroup;
+			children = (
+				32C4555B223A3E94002DEB3D /* WGSwiftRootViewController.swift */,
+				32C45573223A4D0E002DEB3D /* WGSwiftFirstViewController.swift */,
+				32C45578223A54C4002DEB3D /* WGSwiftMethod.swift */,
+			);
+			path = SwiftFile;
+			sourceTree = "<group>";
+		};
+		32C45563223A4215002DEB3D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				32C45567223A4228002DEB3D /* test@2x.png */,
+				32C45565223A4228002DEB3D /* test@3x.png */,
+				32C45564223A4228002DEB3D /* tests@2x.png */,
+				32C45568223A4228002DEB3D /* tests@3x.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +262,7 @@
 				TargetAttributes = {
 					32C4551C223A3C46002DEB3D = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 					32C45534223A3C48002DEB3D = {
 						CreatedOnToolsVersion = 10.0;
@@ -235,9 +299,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32C4556C223A4228002DEB3D /* test@2x.png in Resources */,
 				32C4552D223A3C48002DEB3D /* LaunchScreen.storyboard in Resources */,
+				32C4556A223A4228002DEB3D /* test@3x.png in Resources */,
+				32C4556D223A4228002DEB3D /* tests@3x.png in Resources */,
+				32C45569223A4228002DEB3D /* tests@2x.png in Resources */,
 				32C4552A223A3C48002DEB3D /* Assets.xcassets in Resources */,
-				32C45528223A3C46002DEB3D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +329,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32C45525223A3C46002DEB3D /* ViewController.m in Sources */,
+				32C45577223A54AF002DEB3D /* WGOCMethod.m in Sources */,
+				32C45554223A3D75002DEB3D /* WGTabBarViewController.m in Sources */,
+				32C45574223A4D0E002DEB3D /* WGSwiftFirstViewController.swift in Sources */,
+				32C4555C223A3E94002DEB3D /* WGSwiftRootViewController.swift in Sources */,
+				32C4555F223A3EB1002DEB3D /* WGOCRootViewController.m in Sources */,
+				32C45572223A4CF9002DEB3D /* WGOCFirstViewController.m in Sources */,
+				32C45579223A54C4002DEB3D /* WGSwiftMethod.swift in Sources */,
 				32C45530223A3C48002DEB3D /* main.m in Sources */,
 				32C45522223A3C46002DEB3D /* AppDelegate.m in Sources */,
 			);
@@ -300,14 +373,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		32C45526223A3C46002DEB3D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				32C45527223A3C46002DEB3D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		32C4552B223A3C48002DEB3D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -435,8 +500,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49T87S5RLN;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WGOCSwiftDemo/WGOCSwiftDemo.pch;
 				INFOPLIST_FILE = WGOCSwiftDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -444,6 +512,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bozhong.WGOCSwiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = WGOCSwiftDemo/WGOCSwiftDemoBridging.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -452,8 +523,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49T87S5RLN;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WGOCSwiftDemo/WGOCSwiftDemo.pch;
 				INFOPLIST_FILE = WGOCSwiftDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -461,6 +535,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bozhong.WGOCSwiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = WGOCSwiftDemo/WGOCSwiftDemoBridging.h;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -468,6 +544,7 @@
 		32C4554D223A3C48002DEB3D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49T87S5RLN;
@@ -487,6 +564,7 @@
 		32C4554E223A3C48002DEB3D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49T87S5RLN;
@@ -506,6 +584,7 @@
 		32C45550223A3C48002DEB3D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49T87S5RLN;
 				INFOPLIST_FILE = WGOCSwiftDemoUITests/Info.plist;
@@ -524,6 +603,7 @@
 		32C45551223A3C48002DEB3D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49T87S5RLN;
 				INFOPLIST_FILE = WGOCSwiftDemoUITests/Info.plist;
