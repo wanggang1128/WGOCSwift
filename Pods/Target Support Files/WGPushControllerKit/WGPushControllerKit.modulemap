@@ -1,0 +1,6 @@
+framework module WGPushControllerKit {
+  umbrella header "WGPushControllerKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_WGOCSwiftDemo {
+  umbrella header "Pods-WGOCSwiftDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
