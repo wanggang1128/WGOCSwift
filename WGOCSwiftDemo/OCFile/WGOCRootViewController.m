@@ -49,6 +49,8 @@
     
     WGSwiftFirstViewController *vc = [[WGSwiftFirstViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
+    //swift文件暂不能使用这种方式
+//    [[WGControllerPush WGControllerPushShare] pushFromController:self toCon:@"WGSwiftFirstViewController"];
 }
 
 -(UITableView *)tableView{

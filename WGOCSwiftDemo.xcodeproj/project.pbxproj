@@ -519,6 +519,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
@@ -571,6 +572,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

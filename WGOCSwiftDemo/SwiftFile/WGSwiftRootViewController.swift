@@ -54,8 +54,11 @@ extension WGSwiftRootViewController:UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         
-        let vc = WGOCFirstViewController.init()
-        self.navigationController?.pushViewController(vc, animated: true)
+//        let vc = WGOCFirstViewController.init()
+//        self.navigationController?.pushViewController(vc, animated: true)
+
+        //对于OC文件,两种跳转方式都可以
+        WGControllerPush.wgControllerPushShare()?.push(from: self, toCon: "WGOCFirstViewController")
     }
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {

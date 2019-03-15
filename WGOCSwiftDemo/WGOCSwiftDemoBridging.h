@@ -11,5 +11,6 @@
 
 #import "WGOCFirstViewController.h"
 #import "WGOCMethod.h"
+#import "WGControllerPush.h"
 
 #endif /* WGOCSwiftDemoBridging_h */

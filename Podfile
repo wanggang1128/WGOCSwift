@@ -1,8 +1,8 @@
+use_frameworks!
+
 platform :ios, '8.0'
 
 target 'WGOCSwiftDemo' do
-
-use_frameworks!
 
 pod 'MBProgressHUD'
 pod 'AFNetworking'

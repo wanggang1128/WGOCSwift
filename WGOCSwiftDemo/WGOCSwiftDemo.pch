@@ -11,5 +11,6 @@
 
 #import "WGGloabDefine.h"
 #import "WGOCSwiftDemo-Swift.h"
+#import "WGControllerPush.h"
 
 #endif /* WGOCSwiftDemo_pch */
