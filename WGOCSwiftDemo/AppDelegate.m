@@ -40,8 +40,6 @@
                                                           [UIColor blackColor], NSForegroundColorAttributeName,
                                                           [UIFont systemFontOfSize:18], NSFontAttributeName,
                                                           nil]];
-    //状态栏颜色
-    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault];
 }
 
 

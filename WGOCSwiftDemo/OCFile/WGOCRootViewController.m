@@ -47,10 +47,11 @@
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
-    WGSwiftFirstViewController *vc = [[WGSwiftFirstViewController alloc] init];
-    [self.navigationController pushViewController:vc animated:YES];
-    //swift文件暂不能使用这种方式
-//    [[WGControllerPush WGControllerPushShare] pushFromController:self toCon:@"WGSwiftFirstViewController"];
+//    WGSwiftFirstViewController *vc = [[WGSwiftFirstViewController alloc] init];
+//    [self.navigationController pushViewController:vc animated:YES];
+    //swift文件也支持这种方式
+    NSString *appName = [NSBundle mainBundle].infoDictionary[@"CFBundleExecutable"];
+    [[WGControllerPush WGControllerPushShare] pushFromController:self toCon:@"WGSwiftFirstViewController" appName:appName];
 }
 
 -(UITableView *)tableView{
