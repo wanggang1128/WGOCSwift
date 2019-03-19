@@ -58,7 +58,7 @@ extension WGSwiftRootViewController:UITableViewDelegate, UITableViewDataSource{
 //        self.navigationController?.pushViewController(vc, animated: true)
 
         //对于OC文件,两种跳转方式都可以
-        WGControllerPush.wgControllerPushShare()?.push(from: self, toCon: "WGOCFirstViewController")
+        WGControllerPush.wgControllerPushShare()?.push(from: self, toCon: "WGOCFirstViewController", projName: nil)
     }
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {

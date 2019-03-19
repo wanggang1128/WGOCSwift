@@ -51,7 +51,7 @@
 //    [self.navigationController pushViewController:vc animated:YES];
     //swift文件也支持这种方式
     NSString *appName = [NSBundle mainBundle].infoDictionary[@"CFBundleExecutable"];
-    [[WGControllerPush WGControllerPushShare] pushFromController:self toCon:@"WGSwiftFirstViewController" appName:appName];
+    [[WGControllerPush WGControllerPushShare] pushFromController:self toCon:@"WGSwiftFirstViewController" projName:appName];
 }
 
 -(UITableView *)tableView{
