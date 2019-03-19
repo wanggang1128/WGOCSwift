@@ -54,6 +54,7 @@ typedef NS_ENUM(NSInteger , WGPushControllerType) {
  @param toCon push到的页面
  @param type push页面传值类型
  @param paramDic 传值字典
+ @param appName 工程名字
  */
 - (void)pushFromController:(UIViewController *)fromCon toCon:(NSString *)toCon paramType:(WGPushControllerType)type param:(NSDictionary *)paramDic appName:(NSString *)appName;
 
